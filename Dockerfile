@@ -1,4 +1,4 @@
-FROM maven:3.6.1-jdk-11-slim AS java-builder
+FROM nadjim/maven-jdk-11:version1 AS java-builder
 
 WORKDIR /usr/src/app
 
